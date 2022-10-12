@@ -16,10 +16,10 @@ export class NavBarComponent implements OnInit {
 
   showEmail(email: any) {
     if (!this.myEmail) {
-      this.myEmail = email
-      this.emailBtnText = 'Hided the email id'
+      this.myEmail = email;
+      this.emailBtnText = 'Hided the email id';
     } else {
-      this.myEmail = ''
+      this.myEmail = '';
       this.emailBtnText = 'Show the email id';
     }
   }

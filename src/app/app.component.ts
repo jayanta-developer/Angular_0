@@ -6,9 +6,8 @@ import { Component, Output } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  email = String;
   title = 'Angular project';
-  email = '';
-
   data = [
     {
       name: 'sovon dey',

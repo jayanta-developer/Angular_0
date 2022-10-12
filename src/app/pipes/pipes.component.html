@@ -1,0 +1,23 @@
+<div class="container-fluid">
+  <h3>Example of pipes</h3>
+  <div class="row g-3 align-items-center">
+    <div class="col-auto">
+      <label for="inputPassword6" class="col-form-label">Enter date</label>
+    </div>
+    <div class="col-auto">
+      <input type="file" id="inputPassword6" class="form-control" (change)="getFile($event)">
+  </div>
+  <div class="col-auto">
+    <button class="submit" (click)="uploadFile()">submit</button>
+
+    <div class="col-auto">
+
+    <span>{{val | uppercase}}</span>
+    <input type="text " id="inputPassword6" class="form-control" (keypress)="usePipes($event)">
+
+
+  </div>
+
+  </div>
+</div>
+</div>
